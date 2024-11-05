@@ -1,0 +1,27 @@
+@font-face {
+    font-family: power rangers ;
+    src: url(./Power\ Rangers.ttf);
+}
+
+caption {font-family: "power rangers", "fantasy";
+        font-size: 72px;
+       text-transform: uppercase;   
+    }
+
+    h2 {font-family: "power rangers", "fantasy";
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        word-spacing: 5px;
+        text-align: center;
+    }
+
+    img { height: 250px;
+        /* width: 150px; */
+        display: flex;
+        margin: auto;
+  }
+
+  p {text-align: center;
+
+
+  }

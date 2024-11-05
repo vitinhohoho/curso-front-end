@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+@font-face {
+    font-family: "Brasil Icons";
+    src: url(./Brasil\ Icons.otf);
+}
+
+@font-face {
+    font-family: "Extra";
+    src: url(./Extra\ Days.ttf);
+}
+
+h1 {
+
+    font-family: "Extra" , "fantasy";
+}
+
+
+h2 {
+    font-family: monospace;
+    color: chocolate;
+    text-align: center;
+} 
+
+p{
+
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 30px;
+    /* letter-spacing: 10px; */
+    /* word-spacing: 20px; */
+    text-indent: 50px;
+
+
+}
+
+h3{font-family: cursive;
+text-transform:  capitalize;
+
+}
+
+h4 
+    {
+        font-family: fantasy;
+        text-shadow: 5px 5px 5px greenyellow;
+        font-size: 36px;
+        color: blue;
+
+    }
+
+    a {text-decoration-line: underline ;
+        text-decoration-style: wavy;
+        text-decoration-color: orange;
+        color: rgb(138, 43, 226);
+        font-size: 40px;
+    }
+
+    body {
+        background-color: rgb(48, 28, 28);
+        background-image: url(./img/relampago-mcqueen_capa.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: cover;
+        background-blend-mode: saturation;
+
+    }
+
+  
