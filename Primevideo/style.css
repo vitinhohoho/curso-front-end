@@ -1,21 +1,29 @@
+@font-face {
+    font-family:amazon1;
+    src: url(./assets/AmazonEmber_Lt.woff);
+}
+@font-face {
+    font-family:amazon2;
+    src: url(./assets/AmazonEmber_Rg.woff);
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
+    font-family: "amazon1", "fantasy";
 }
 
 .logoprime {
     display: flex;
-    height: 25px;
+    height: 24px;
 }
 
 .inicio {
     display: flex;
     align-items: center;
+    ;
 }
 
 .logo {
@@ -28,12 +36,13 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     background-color: #00050d;
-    padding: 20px;
-    color: white;
-    gap: 100px;
+    padding: 8px;
+    color: #aaaaaa;
+    gap: 50px;
+  
 }
 
 nav ul {
@@ -42,9 +51,10 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 0 1em;
+    font-size: 16;
 }
 
 .inicio li a img {
@@ -52,23 +62,30 @@ nav ul li {
     align-items: ;
     width: 30px;
     height: 30px;
-
 }
 
+.menuhomem .logohomem {
+    width: 35px;
+    height: 35px;
+}
+/* ************************************ */
 
-
-nav ul li a,
-.ling-login a {
-    padding: 20px;
-    color: #AAAAAA;
-    text-decoration: none;
+#tamanho-banner {
+    height: 40em;
+    background-image: url(./assets/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT5650.jpg);
+    background-size:cover;
 }
 
 .banner {
-    height: 42em;
-    position: relative;
-    text-align: left;
+    width: 50%;
+    height: 450px;
+    background-image: linear-gradient(to right, #000000 85%, #ffffff00) ;
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 84px;
+    justify-content: center;
+    gap: 50px;
 }
 
 .banner img {
@@ -77,37 +94,42 @@ nav ul li a,
 }
 
 .banner-text {
-    padding: 360px 360px 348px 0;
+    padding: 110px 370px 0 0;
     position: absolute;
     top: 0%;
     left: 5%;
     max-width: 1100px;
-    background-image: linear-gradient(to right, black 55%, transparent 80%);
+    background-image: linear-gradient(to right, black 65%, transparent 80%);
 }
 
-.banner-text h1 {
-    font-size: 38px;
-    margin-bottom: 10px;
-    font-weight: 100;
-}
-
-.banner-text p {
-    font-size: 1em;
-    margin-bottom: 10px;
-}
-
-.banner-text button {
-    background-color: #00a8e1;
+.banner h1 {
+    height: 70px;
     color: white;
-    padding: 10px 20px;
-    border: none;
-    margin: 5px 0;
-    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 45px;
+    font-weight: 700;
 }
 
-.banner-text .note {
+.banner p {
+    font-size: 18px;
+    margin: px 0;
+}
+
+
+.banner .note {
     font-size: 0.8em;
     color: lightgray;
+}
+
+button{
+    font-size: 1em;
+    color: var(--branco);
+    background-image: linear-gradient(to right, #0f79af 90%, #086cb4);
+    border: none;
+    border-radius: 2px;
+    padding: 1em;
+    width: 17.5em;
+    cursor: pointer;
 }
 
 /* **************************canais*************************** */
@@ -205,3 +227,6 @@ img{
     height: auto;
     margin-bottom: 10px;
 }
+
+
+
