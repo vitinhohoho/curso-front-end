@@ -48,12 +48,44 @@
 //     console.log(multiplicacao)
 //     console.log(divisao)
 
-var idade = parseInt(prompt('digite a idade'))
+// var idade = parseInt(prompt('digite a idade'))
 
-if (idade >= 18){
-    console.log('você é maior de idade')
+// if (idade >= 150){
+//     console.log('Idade inválida')
+//     alert('Idade inválida')
+// }
+// else if(idade >= 18) {
+//     console.log('Você é maior de idade')
+// }
+// else{
+//     console.log('menor de idade')
+// }
+
+// var idade = parseInt(prompt('qual a sua idade?'))
+
+// if (idade >= 18){
+//     console.log('Pode assistir o filme')
+// }
+// else if (idade >=16){
+//     var acompanhado = prompt('Está acompanhado? s / n ')
+
+//     if(acompanhado == 's'){
+//         console.log('Pode assistir')
+//     }
+//     else{
+//         alert('Você não pode assistir desacompanhado')
+//     }
+
+// }else{
+//     alert('Você é menor de idade')
+// }
+
+var atividade = 1
+var nota_atividade = 8.2
+
+if ((atividade == true) || (nota_atividade >=5)){
+    console.log('Pode ir embora')
 }
 else{
-    console.log('menor de idade')
+    console.log('não pode ir embora')
 }
-
