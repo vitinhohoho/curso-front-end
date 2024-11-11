@@ -1,0 +1,104 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #005ba2;
+    color: white;
+    padding: 15px 0;
+}
+
+header .logo {
+    height: 40px;
+    margin-left: 10px;
+}
+
+header .nav {
+    float: right;
+    margin-right: 20px;
+}
+
+header .nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .nav a:hover {
+    text-decoration: underline;
+}
+
+/* Corpo da página */
+main {
+    display: flex;
+    padding: 20px 0;
+}
+
+/* Coluna esquerda */
+.coluna-esquerda {
+    width: 70%;
+    padding-right: 20px;
+}
+
+.coluna-esquerda h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.amigos ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.amigos ul li {
+    margin: 5px 0;
+}
+
+/* Fotos recentes */
+.fotos-galeria img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+/* Coluna direita */
+.coluna-direita {
+    width: 30%;
+    padding-left: 20px;
+}
+
+.perfil {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #005ba2;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}

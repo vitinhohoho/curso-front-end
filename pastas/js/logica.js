@@ -16,7 +16,7 @@
 
 //     // Lista de dados = array
 //     const frutas = ['maça', 'goiaba', 'uva']
-    
+
 //     // não é um numero = NaN (Not a number)
 //     // indefinido = undefined
 
@@ -31,7 +31,7 @@
 
 //     // console.log(idade)
 //     // console.log(typeof(idade))
-        
+
 //     // console.log(parseInt(idade))
 //     // console.log(typeof(parseInt(idade)))
 
@@ -80,12 +80,90 @@
 //     alert('Você é menor de idade')
 // }
 
-var atividade = 1
-var nota_atividade = 8.2
+// var atividade = 1
+// var nota_atividade = 8.2
 
-if ((atividade == true) || (nota_atividade >=5)){
-    console.log('Pode ir embora')
-}
-else{
-    console.log('não pode ir embora')
-}
+// if ((atividade == true) || (nota_atividade >=5)){
+//     console.log('Pode ir embora')
+// }
+// else{
+//     console.log('não pode ir embora')
+// }
+
+
+// const voto = prompt('Informe seu candidato 13 para fazer o L e 22 para fazer arminha')
+
+// switch(voto){
+//     case 13:
+//         console.log('Fez o L')
+//         break
+
+//     case 22:
+//         console.log('fez arminha')
+//         break 
+//     default:
+//         console.log('Voto inválido')   
+// }
+
+// if (voto == 13){
+//     console.log('Você fez o L')
+// }else if (voto == 22){
+// console.log('Você fez arminha')
+// }else{
+//     console.log('Voto inválido')
+// }
+
+// let maior = 0
+
+// numero = prompt('Informe o número 1')
+
+// if (numero > maior){
+//     maior = numero
+// }
+// numero = prompt('Informe o número 2')
+
+// if (numero > maior){
+//     maior = numero
+// }
+// numero = prompt('Informe o número 3')
+
+// if (numero > maior){
+//     maior = numero
+// }
+// numero = prompt('Informe o número 4')
+
+// if (numero > maior){
+//     maior = numero
+// }
+
+// console.log ('O maior número foi ' + maior )
+
+// let numero
+// let maior = 0
+
+// for (let contador = 1; contador <= 4; contador++) {
+//     numero = parseInt(prompt('Informe o número'))
+
+//     if (numero > maior) {
+//         maior = numero
+//     }
+// }
+
+// console.log('O maior número foi ' + maior)
+
+// let contador = 0;
+// let limite = 4
+// let numero
+// let maior = 0
+
+// while (contador < limite){
+//     numero = parseInt(prompt('Informe o número'))
+
+//     if (numero > maior) {
+//         maior = numero
+//     }
+ 
+//     contador = contador + 1
+// }
+    
+//     console.log ('O maior número foi ' + maior )

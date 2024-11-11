@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: white;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #582D44, #040203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu lateral */
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, #2E1723, #040203);
+    height: 100vh;
+    width: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Logo */
+.logo {
+    width: 3rem;
+    height: 3rem;
+    display: block;
+}
+
+/* Menu superior */
+.menu-superior nav ul {
+    list-style: none;
+}
+
+.menu-superior li:hover {
+    color: #1db954;
+}
+
+
+.menu-superior nav > ul > li{ 
+    margin: 1rem 1.5rem;
+    font-size: 1.4rem;
+}
+
+.menu-superior hr {
+    margin: 1rem 1.5rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 1.5rem;
+    font-size: 1.4rem;
+}
+
+.search img {
+    margin-left: auto;
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Menu inferior */
+.menu-inferior {
+    padding: 10rem 1.5rem ;
+   
+}
+
+.menu-inferior {
+    padding: 10rem 0.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #b3b3b3; 
+}
+
+.icone-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.icone-esquerda img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.foto-perfil {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.foto-perfil img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+/* --------------------main---------------------- */
+
+
+#menu-principal {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.menu li a:hover {
+    color: #1db954;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Título da seção */
+.section-title h1 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilos das playlists */
+.playlists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+    margin-bottom: 2rem;
+}
+
+.playlist-card {
+    width: 100%;
+    max-width: 180px;
+    text-align: center;
+}
+
+.playlist-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.playlist-card p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #b3b3b3;
+}
+
+/* Link "View More" */
+.view-more {
+    margin: 2rem 0;
+}
+
+.view-more a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #1db954;
+    border-bottom: 1px solid transparent;
+}
+
+.view-more a:hover {
+    border-bottom: 1px solid #1db954;
+}
+
+/* Seção "Made For You" */
+.made-for-you {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.made-for-you h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.made-for-you-card {
+    display: inline-block;
+    width: 100%;
+    max-width: 180px;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+.made-for-you-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.made-for-you-card p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #b3b3b3;
+}

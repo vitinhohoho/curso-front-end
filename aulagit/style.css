@@ -1,0 +1,38 @@
+@font-face {
+    font-family:"GODOFWAR";
+    src: url(./assents/fontes/GODOFWAR.TTF);
+}
+
+* { padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+html{ font-size: 62.5%;}
+
+body{ display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background-image:  linear-gradient( to top,#ff1919 , #020101da 60%
+ );
+}
+
+
+h1{ font-size: 3.2rem;
+font-family: "GODOFWAR";
+color: #973434;
+text-shadow: 1rem 1rem 1rem #bd0d0d ;
+display: flex;
+justify-content: center;}
+
+
+.redes-sociais{ display: flex;
+justify-content: space-between;}
+
+.conteudo{ box-shadow: 0 0 .3rem #6b6b6b;
+padding: 4rem;
+border-radius: 2rem;
+display: flex;
+flex-direction: column;
+gap: 3rem;
+background-color: #fff;}
